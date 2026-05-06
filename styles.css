@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+nav a {
+  color: lightskyblue;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 1px solid lightskyblue;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+#top-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.vid-border {
+  border: 1px solid lightskyblue;
+}
+figcaption {
+  color: white;
+}
+
+#editing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
